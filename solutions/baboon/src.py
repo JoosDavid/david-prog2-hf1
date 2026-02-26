@@ -21,3 +21,6 @@ if __name__ == "__main__":
         out.append(out_dic)
 
     pd.DataFrame(out).to_csv("out.csv", index=False)
+    print("Rows written:", len(out))
+    print("Final dataframe:")
+    print(pd.DataFrame(out))

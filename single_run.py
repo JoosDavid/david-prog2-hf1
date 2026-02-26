@@ -93,4 +93,4 @@ def main(solution: str, in_n: int = 1_000, q_n: int = 10, comparison="", seed=74
     return logs
 
 if __name__ == "__main__":
-    main("binom")
+    main("src")
