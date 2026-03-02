@@ -7,7 +7,7 @@ if __name__ == "__main__":
     for idx, row in query_df.iterrows():
 
         min_dist = 0
-        max_dist = 1000
+        max_dist = 100
         out_dict = {}
         center_x = row.iloc[0]
         center_y = row.iloc[1]
